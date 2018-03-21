@@ -30,7 +30,7 @@ func main() { <br />
 
 
 ### How to run from VS code,
-A. Go to VS code terminal <br />
+A. Go to VS code terminal (View-->Integrated Terminal)<br />
 B. Tyep,cd "your test.go file loc" <br />
 Ex: cd E:\GOWP\test.go <br />
 C. Then type go run test.go <br />
