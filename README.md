@@ -42,7 +42,7 @@ C. Then type go run test.go <br />
 !. Format your Go file using Shift+Alt+F <br />
 2. Go To Definition F12 - Go to the source code of the type definition. <br />
 3. Peek Definition Alt+F12 - Bring up a Peek window with the type definition. <br />
-4. Find All References Shift+F12 - Find all references for the type. <br />
+4. Find All References Shift+F12 - Find all references for the type. <br /> <br />
 
 
 
@@ -81,8 +81,6 @@ Please update **list.txt** (via Pull Request)
 | [aegis](https://github.com/tmaiaroto/aegis) | 140 | 5 | 5 | Serverless Golang APIs with AWS Lambda & API Gateway |
 | [gorest](https://github.com/tideland/gorest) | 27 | 1 | 2 | Tideland GoREST |
 | [webgo](https://github.com/bnkamalesh/webgo) | 22 | 2 | 2 | A very lightweight & simple web framework for Go |
-
-*Last Automatic Update: 2018-03-24 03:03:30*
 
 
 
