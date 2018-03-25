@@ -39,7 +39,7 @@ C. Then type go run test.go <br />
 
 
 ## VS Code Editor Command
-!. Format your Go file using Shift+Alt+F <br />
+1. Format your Go file using Shift+Alt+F <br />
 2. Go To Definition F12 - Go to the source code of the type definition. <br />
 3. Peek Definition Alt+F12 - Bring up a Peek window with the type definition. <br />
 4. Find All References Shift+F12 - Find all references for the type. <br /> <br />
