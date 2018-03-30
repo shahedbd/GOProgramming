@@ -5,10 +5,10 @@ Go (often referred to as golang) is a programming language created at Google in 
 
 # Golang Highlights
 ### 01. Compiled
-### 02. performant
-### 03. multiple-cores
-### 04. concurrency
-### 05. network
+### 02. Performant
+### 03. Multiple-cores
+### 04. Concurrency
+### 05. Network
 ### 06. Statically typed language in the tradition of Algol and C
 ### 07. With garbage collection
 ### 08. Limited structural typing
