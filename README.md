@@ -3,11 +3,16 @@ Go (often referred to as golang) is a programming language created at Google in 
 
 # Golang Highlights
 ### 01. Compiled
-### 02. Statically typed language in the tradition of Algol and C
-### 03. With garbage collection
-### 04. Limited structural typing
-### 05. Memory safety features
-### 06. CSP-style concurrent programming
+### 02. performant
+### 03. multiple-cores
+### 04. concurrency
+### 05. network
+### 06. Statically typed language in the tradition of Algol and C
+### 07. With garbage collection
+### 08. Limited structural typing
+### 09. Memory safety features
+### 10. CSP-style concurrent programming
+
 
 
 
@@ -39,7 +44,7 @@ func main() { <br />
 }
 
 
-### How to run from VS code,
+### Run from VS code,
 A. Go to VS code terminal (View-->Integrated Terminal)<br />
 B. Tyep,cd "your test.go file loc" <br />
 Ex: cd E:\GOWP\test.go <br />
