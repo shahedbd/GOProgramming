@@ -98,8 +98,7 @@ Please update **list.txt** (via Pull Request)
 ## The major differences between Java and Golang are:
 
 01. Go’s compilation speed is very fast as no VM is needed to execute Go program. <br />
-02. Go can return more than one value whereas Java can’t. Every time you need to create object as there is no pointer support in Java. 
-<br />
+02. Go can return more than one value whereas Java can’t. Every time you need to create object as there is no pointer support in Java.<br />
 03. Garbage collection is pretty good in Golang. <br />
 04. Golang have goroutine in order to achieve multitasking. <br /> 
 05. A single thread in java takes more than 1 MB memory on heap whereas goroutine takes approx. 2 KB. <br /> 
