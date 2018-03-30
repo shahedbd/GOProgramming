@@ -1,5 +1,14 @@
 # Go (programming language)
-Go (often referred to as golang) is a programming language created at Google[12] in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson.[10] It is a compiled, statically typed language in the tradition of Algol and C, with garbage collection, limited structural typing,[3] memory safety features and CSP-style concurrent programming features added.[13] The compiler and other language tools originally developed by Google are all free and open source.
+Go (often referred to as golang) is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. It is a compiled, statically typed language in the tradition of Algol and C, with garbage collection, limited structural typing, memory safety features and CSP-style concurrent programming features added. The compiler and other language tools originally developed by Google are all free and open source. <br />
+
+### 01 Compiled
+### 01 Statically typed language in the tradition of Algol and C
+### 01 With garbage collection
+### 01 Limited structural typing
+### 01 Memory safety features
+### 01 CSP-style concurrent programming
+
+
 
 #### Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
@@ -84,3 +93,13 @@ Please update **list.txt** (via Pull Request)
 
 
 
+
+## The major differences between Java and Golang are:
+
+Go’s compilation speed is very fast as no VM is needed to execute Go program. <br />
+Go can return more than one value whereas Java can’t. Every time you need to create object as there is no pointer support in Java. 
+<br />
+Garbage collection is pretty good in Golang. <br />
+Golang have goroutine in order to achieve multitasking. A single thread in java takes more than 1 MB memory on heap whereas goroutine takes approx. 2 KB. You need to extend class from Thread class or implements Runnable interface and need to put your logic in run() in java , but in Golang you just need to write go keyword before function definition so it will make that function as goroutine. <br />
+Also synchronization support is very good in golang. <br />
+Go’s interface is more flexible as there is no support for inheritance. Inheritance makes things more complex in bigger projects. <br />
