@@ -1,7 +1,7 @@
 # Go (programming language)
 Go (often referred to as golang) is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. It is a compiled, statically typed language in the tradition of Algol and C, with garbage collection, limited structural typing, memory safety features and CSP-style concurrent programming features added. The compiler and other language tools originally developed by Google are all free and open source. (Wiki) <br />
 
-![stack Overflow](https://github.com/shahedbd/GOProgramming/blob/master/Resources/GOlang.JPG)
+![stack Overflow](https://github.com/shahedbd/GOProgramming/blob/master/Resources/GOlang.jpg)
 
 # Golang Highlights
 ### 01. Compiled
@@ -114,7 +114,7 @@ Please update **list.txt** (via Pull Request)
 08. Go’s interface is more flexible as there is no support for inheritance. Inheritance makes things more complex in bigger projects. <br />
 
 
-## Graphical presentaion of GO language with other languages
+## Graphical comparison of GO language with other languages
 ![stack Overflow](https://github.com/shahedbd/GOProgramming/blob/master/Resources/FastFunforHuman.JPG)
 <br />
 
