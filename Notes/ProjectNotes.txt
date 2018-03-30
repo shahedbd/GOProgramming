@@ -1,0 +1,10 @@
+import "fmt"
+
+Why is it pronounced "fumpt" rather than "format" then?
+
+
+MSSQL cmd:
+# Get and install the SQL Server driver for Go
+go get github.com/denisenkom/go-mssqldb
+go install github.com/denisenkom/go-mssqldb
+
