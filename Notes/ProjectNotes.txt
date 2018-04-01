@@ -48,5 +48,15 @@ Web Strome
 
 
 
+API:
+https://www.tutorialspoint.com/go/go_slice.htm
+
+
+https://www.codementor.io/codehakase/building-a-restful-api-with-golang-a6yivzqdo
+
+
+
+
+
 
 
