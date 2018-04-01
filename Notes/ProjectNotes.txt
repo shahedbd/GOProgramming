@@ -40,6 +40,12 @@ For example, var foo int = 10 is the same as foo := 10.
 
 
 
+IDE:
+https://www.jetbrains.com/go/
+VS Code
+Web Strome
+
+
 
 
 
