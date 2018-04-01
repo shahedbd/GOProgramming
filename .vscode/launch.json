@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch",
+            "name": "Go Lanng Project",
             "type": "go",
             "request": "launch",
             "mode": "debug",

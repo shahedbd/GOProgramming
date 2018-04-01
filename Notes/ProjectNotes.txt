@@ -8,3 +8,39 @@ MSSQL cmd:
 go get github.com/denisenkom/go-mssqldb
 go install github.com/denisenkom/go-mssqldb
 
+
+After go install in windows:
+go --version
+go
+
+
+
+VS code debug:
+https://github.com/Microsoft/vscode-go
+
+https://github.com/derekparker/delve/tree/master/Documentation/installation
+
+https://github.com/derekparker/delve/blob/master/Documentation/installation/windows/install.md
+	
+go get -u github.com/derekparker/delve/cmd/dlv
+
+
+Video:
+https://www.youtube.com/watch?v=JS3ZYem-XPg
+
+
+
+:=
+https://stackoverflow.com/questions/17891226/golang-operator-difference-between-vs
+
+In Go, := is for declaration + assignment, whereas = is for assignment only.
+
+For example, var foo int = 10 is the same as foo := 10.
+
+
+
+
+
+
+
+
