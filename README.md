@@ -114,9 +114,9 @@ Please update **list.txt** (via Pull Request)
 08. Go’s interface is more flexible as there is no support for inheritance. Inheritance makes things more complex in bigger projects. <br />
 
 ### VS code debugging:
-https://github.com/Microsoft/vscode-go
-https://github.com/derekparker/delve/tree/master/Documentation/installation
-https://github.com/derekparker/delve/blob/master/Documentation/installation/windows/install.md	
+https://github.com/Microsoft/vscode-go <br />
+https://github.com/derekparker/delve/tree/master/Documentation/installation <br />
+https://github.com/derekparker/delve/blob/master/Documentation/installation/windows/install.md	<br />
 go get -u github.com/derekparker/delve/cmd/dlv   <br />
 
 
