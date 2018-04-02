@@ -1,4 +1,7 @@
 
+http://localhost:8080/
+
+
 
 Usefull url:
 https://thenewstack.io/make-a-restful-json-api-go/

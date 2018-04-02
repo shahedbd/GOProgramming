@@ -9,6 +9,14 @@ go get github.com/denisenkom/go-mssqldb
 go install github.com/denisenkom/go-mssqldb
 
 
+API cmd:
+go get github.com/gorilla/mux
+go install github.com/gorilla/mux
+
+
+
+
+
 After go install in windows:
 go --version
 go
