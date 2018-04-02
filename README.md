@@ -113,6 +113,19 @@ Please update **list.txt** (via Pull Request)
 07. Also synchronization support is very good in golang. <br />
 08. Go’s interface is more flexible as there is no support for inheritance. Inheritance makes things more complex in bigger projects. <br />
 
+### VS code debugging:
+https://github.com/Microsoft/vscode-go <br />
+https://github.com/derekparker/delve/tree/master/Documentation/installation <br />
+https://github.com/derekparker/delve/blob/master/Documentation/installation/windows/install.md	<br />
+go get -u github.com/derekparker/delve/cmd/dlv   <br />
+
+
+### Recommended IDE:
+https://www.jetbrains.com/go/ <br />
+VS Code  <br />
+Web Strome  <br />
+
+
 
 ## Graphical comparison of GO language with other languages
 ![stack Overflow](https://github.com/shahedbd/GOProgramming/blob/master/Resources/FastFunforHuman.JPG)
