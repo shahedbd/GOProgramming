@@ -49,7 +49,7 @@ func main() { <br />
 ### Run from VS code,
 A. Go to VS code terminal (View-->Integrated Terminal)<br />
 B. Tyep,cd "your test.go file loc" <br />
-Ex: cd E:\GOWP\test.go <br />
+Ex: cd E:\GOWP <br />
 C. Then type go run test.go <br />
 
 ![stack Overflow](https://github.com/shahedbd/GOProgramming/blob/master/Resources/GoRunFromVSCode.JPG)
@@ -125,6 +125,16 @@ https://www.jetbrains.com/go/ <br />
 VS Code  <br />
 Web Strome  <br />
 
+### SQLDrivers
+https://github.com/golang/go/wiki/SQLDrivers
+
+### A pure Go MSSQL driver for Go's database/sql package
+https://github.com/denisenkom/go-mssqldb
+cmd: go get github.com/denisenkom/go-mssqldb
+
+### Go MySQL Driver
+https://github.com/go-sql-driver/mysql/
+cmd: go get -u github.com/go-sql-driver/mysql
 
 
 ## Graphical comparison of GO language with other languages
