@@ -49,7 +49,7 @@ func main() { <br />
 ### Run from VS code,
 A. Go to VS code terminal (View-->Integrated Terminal)<br />
 B. Tyep,cd "your test.go file loc" <br />
-Ex: cd E:\GOWP\test.go <br />
+Ex: cd E:\GOWP <br />
 C. Then type go run test.go <br />
 
 ![stack Overflow](https://github.com/shahedbd/GOProgramming/blob/master/Resources/GoRunFromVSCode.JPG)
