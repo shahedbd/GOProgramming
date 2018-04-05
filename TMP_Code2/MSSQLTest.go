@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	condb, errdb := sql.Open("mssql", "server=SAHIDUL\\MSSQLSERVER17;user id=dev;password=dev321;database=DevTest;")
+	condb, errdb := sql.Open("mssql", "server=SAHIDUL\\MSSQLSERVER17;user id=dev;password=dev321;database=DevTest;Persist Security Info=false;")
 	if errdb != nil {
 		fmt.Println(" Error open db:", errdb.Error())
 	}
