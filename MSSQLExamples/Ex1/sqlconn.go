@@ -10,7 +10,7 @@ import (
 
 func main() {
 	//condb, errdb := sql.Open("mssql", "server=MLBD-SAHIDUL-IS\\MSSQLSERVER17;user id=dev;password=dev321;database=DevTest;")
-	condb, errdb := sql.Open("mssql", "server= MLBD-SAHIDUL-IS\\SQLEXPRESS2014;user id=sa;password=dev321;database=DevTest;")
+	condb, errdb := sql.Open("mssql", "server= MLBD-SAHIDUL-IS\\SQLEXPRESS2014;user id=sa;password=dev321;database=DevTest;connection+timeout=300;")
 	if errdb != nil {
 		fmt.Println(" Error open db:", errdb.Error())
 	}
