@@ -1,37 +1,31 @@
 package main
 
-import "fmt"
-import "os"
-import "os/signal"
-import "syscall"
+import (
+	"log"
+	"os"
+	"os/signal"
+	"syscall"
+	"time"
+)
 
 func main() {
+	log.Println("Worker started. Press Ctrl-C to stop server")
 
-	// Go signal notification works by sending `os.Signal`
-	// values on a channel. We'll create a channel to
-	// receive these notifications (we'll also make one to
-	// notify us when the program can exit).
-	sigs := make(chan os.Signal, 1)
-	done := make(chan bool, 1)
+	ch := make(chan os.Signal, 1)
+	signal.Notify(ch, os.Interrupt, os.Kill, syscall.SIGTERM)
+	active := true
 
-	// `signal.Notify` registers the given channel to
-	// receive notifications of the specified signals.
-	signal.Notify(sigs, syscall.SIGINT, syscall.SIGTERM)
-
-	// This goroutine executes a blocking receive for
-	// signals. When it gets one it'll print it out
-	// and then notify the program that it can finish.
 	go func() {
-		sig := <-sigs
-		fmt.Println()
-		fmt.Println(sig)
-		done <- true
+		signalType := <-ch
+		signal.Stop(ch)
+		log.Println("Signal type : ", signalType)
+		active = false
 	}()
 
-	// The program will wait here until it gets the
-	// expected signal (as indicated by the goroutine
-	// above sending a value on `done`) and then exit.
-	fmt.Println("awaiting signal")
-	<-done
-	fmt.Println("exiting")
+	for active {
+		log.Println("doing a task...")
+		time.Sleep(1000 * time.Millisecond)
+	}
+
+	log.Println("Exiting...")
 }
