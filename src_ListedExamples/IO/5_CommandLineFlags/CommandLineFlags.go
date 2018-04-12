@@ -19,3 +19,5 @@ func main() {
 	fmt.Println("My Local Flag:", MyLocalFlag)
 	fmt.Println("Flag Argument:", flag.Args())
 }
+
+//Command-line flags are a common way to specify options for command-line programs.

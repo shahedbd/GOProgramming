@@ -6,7 +6,7 @@
 06. Environment Variables
 07. Spawning Processes
 08. Exec'ing Processes
-09. Signals--Prob
+09. Signals
 10. Exit
 
 

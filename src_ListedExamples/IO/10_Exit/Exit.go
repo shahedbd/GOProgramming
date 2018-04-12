@@ -5,7 +5,7 @@ import "os"
 
 func main() {
 
-	defer fmt.Println("!")
+	defer fmt.Println("Not Printed! :( ")
 
 	os.Exit(3)
 }

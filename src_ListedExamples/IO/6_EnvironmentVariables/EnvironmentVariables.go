@@ -11,7 +11,7 @@ func main() {
 	fmt.Println("My Environment Variables:", os.Getenv("MyEnVar"))
 	fmt.Println("BAR:", os.Getenv("BAR"))
 
-	fmt.Println()
+	fmt.Println("********************************")
 
 	for _, e := range os.Environ() {
 		pair := strings.Split(e, "=")

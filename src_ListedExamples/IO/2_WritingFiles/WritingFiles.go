@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	d1 := []byte("hello\ngo\n")
+	d1 := []byte("Hello\nGO\nLovers!\n")
 	err := ioutil.WriteFile("MyFiles\\WriteMe.txt", d1, 0644)
 	check(err)
 
