@@ -4,15 +4,14 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "name": "Go Lanng Project",
             "type": "go",
             "request": "launch",
             "mode": "debug",
             "remotePath": "",
-            "port": 2345,
-            "host": "127.0.0.1",
+            "port": 5002,
+            "host": "127.0.0.0",
             "program": "${fileDirname}",
             "env": {},
             "args": [],
